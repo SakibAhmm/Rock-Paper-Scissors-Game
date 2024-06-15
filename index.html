@@ -1,60 +1,65 @@
 <!DOCTYPE html>
-<head>
-  <link rel="stylesheet" href="Rock-Paper-Scissors.css
-  ">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Luckiest+Guy&family=Pacifico&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap" rel="stylesheet">
-</head> 
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="Rock-Paper-Scissors.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&family=Luckiest+Guy&family=Pacifico&family=Silkscreen:wght@400;700&display=swap"
+      rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<title>Rock Paper Scissors Game</title>
+  <title>Rock Paper Scissors Game</title>
 
-<body>
-  <p class="title-game">Rock-Paper-Scissors-Game</p>
+  <body>
+    <p class="title-game">Rock-Paper-Scissors-Game</p>
     <div class="hand-icons">
-    <button onclick=" playerMove('Rock');
-    " class="move-button">
-    <img src="Images/Rock-icon.png" alt="rock-sign"
-    class="move-icon">
-  </button>
+      <button
+        onclick=" playerMove('Rock');"
+        class="move-button">
+        <img src="Images/Rock-icon.png" alt="rock-sign" class="move-icon" />
+      </button>
 
-    <button onclick=" playerMove('Paper');
-    "class="move-button">
-    <img src="Images/Paper-icon.png" alt="paper-sign"
-    class="move-icon">
-  </button>
+      <button
+        onclick=" playerMove('Paper');"
+        class="move-button">
+        <img src="Images/Paper-icon.png" alt="paper-sign" class="move-icon" />
+      </button>
 
-    <button onclick=" playerMove('Scissor');
-
-
-    " class="move-button"><img src="Images/Scissor-icon.png" alt="scissor-sign"
-    class="move-icon">
-    </button>
-  </div>
-  <div>
-    <p class="js-result result" id="kire1"> </p>
-    <p class="js-moves" id="kire"></p>
-  </div>
+      <button
+        onclick=" playerMove('Scissor');"
+        class="move-button">
+        <img
+          src="Images/Scissor-icon.png"
+          alt="scissor-sign"
+          class="move-icon"/>
+      </button>
+    </div>
+    <div>
+      <p class="js-result result" id="result-p"></p>
+      <p class="js-moves" id="moves-icon-p"></p>
+    </div>
     <p class="js-updateScore score"></p>
-    
-    <button onclick="
+
+    <button
+      onclick="
     score.Wins = 0;
     score.Losses = 0;
     score.Ties = 0;
     localStorage.removeItem('score')
     updateScore()
-    removeButton();
-    
-    " class="reset-score-button">Reset score
-</button>
+    removeButton();" class="reset-score-button">
+      Reset score
+    </button>
 
-  <script src="Rock-Paper-Scissors.js">
-    
-    
-  </script>
-</body>
+    <script src="Rock-Paper-Scissors.js"></script>
+  </body>
 </html>
-

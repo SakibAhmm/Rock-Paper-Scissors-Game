@@ -1,64 +1,51 @@
-
-body{
+body {
   background-color: rgb(15, 13, 13);
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   margin: 0px;
-  
-
 }
 
-.title-game{
-font-size: 400%;
-display: table;
-margin: auto;
-padding-top: 70px;
-font-family: "Luckiest Guy", cursive;
--webkit-text-stroke-width: 3px;
--webkit-text-stroke-color: rgb(56, 9, 2);
-
-
-
+.title-game {
+  font-size: 400%;
+  display: table;
+  margin: auto;
+  padding-top: 70px;
+  font-family: "Luckiest Guy", cursive;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: rgb(56, 9, 2);
 }
-.move-icon{
-  
-height: 200px;
-border-radius: 20px;
-border: 10px solid #000000;
-
+.move-icon {
+  height: 200px;
+  border-radius: 20px;
+  border: 10px solid #000000;
 }
-.move-icon:hover{
+.move-icon:hover {
   border: 10px solid #058c9e;
-
 }
-.hand-icons{
+.hand-icons {
   display: flex;
   justify-content: space-evenly;
   display: table;
   margin: auto;
-  padding-top:100px ;
-  
+  padding-top: 100px;
 }
-.move-button{
-background-color: transparent;
-border: 0px solid white;
-border-radius: 200px;
-margin: 0px 25px;
-cursor: pointer;
-
+.move-button {
+  background-color: transparent;
+  border: 0px solid white;
+  border-radius: 200px;
+  margin: 0px 25px;
+  cursor: pointer;
 }
 
-.result{
-font-size: 40px;
-display: table;
-margin: auto;
-padding-top: 25px;
-font-family: "Luckiest Guy", cursive;
-
-
+.result {
+  font-size: 40px;
+  display: table;
+  margin: auto;
+  padding-top: 25px;
+  font-family: "Luckiest Guy", cursive;
 }
-.js-moves{
+.js-moves {
   display: table;
   margin: auto;
   display: flex;
@@ -66,71 +53,66 @@ font-family: "Luckiest Guy", cursive;
   justify-content: center;
   padding-top: 30px;
 }
-.move-icon1{
-margin-left: 20px;
-margin-right: 20px;
-height: 70px;
-border-radius: 20px;
- 
+.move-icon1 {
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 70px;
+  border-radius: 20px;
 }
-.result-popout1{
+.result-popout1 {
   display: flex;
   justify-content: end;
   width: 100px;
-  font-family:"Bungee", sans-serif;
+  font-family: "Bungee", sans-serif;
   -webkit-text-stroke-width: 1px;
--webkit-text-stroke-color: rgb(95, 114, 19);
+  -webkit-text-stroke-color: rgb(95, 114, 19);
 }
-.result-popout2{
+.result-popout2 {
   width: 100px;
-  font-family:"Bungee", sans-serif;
+  font-family: "Bungee", sans-serif;
   -webkit-text-stroke-width: 1px;
--webkit-text-stroke-color: rgb(100, 17, 89);
+  -webkit-text-stroke-color: rgb(100, 17, 89);
 }
 
-.result-popout1:first-child{
- display: flex;
- justify-content: end;
-
+.result-popout1:first-child {
+  display: flex;
+  justify-content: end;
 }
-.score{
-display: table;
-margin: auto;
-font-size: 50px;
-padding: 10px;
-font-family:"Bungee", sans-serif;
--webkit-text-stroke-width: 1px;
--webkit-text-stroke-color: rgb(37, 14, 122);
+.score {
+  display: table;
+  margin: auto;
+  font-size: 50px;
+  padding: 10px;
+  font-family: "Bungee", sans-serif;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(37, 14, 122);
 }
-.tie-color{
+.tie-color {
   -webkit-text-stroke-width: 1.5px;
--webkit-text-stroke-color: rgb(74, 28, 27);
+  -webkit-text-stroke-color: rgb(74, 28, 27);
 }
-.youLose-color{
+.youLose-color {
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: rgb(196, 4, 1);
 }
-.youWin-color{
+.youWin-color {
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: rgb(16, 107, 5);
 }
-.reset-score-button{
-background-color: white;
-border: none;
-font-size: 15px;
-padding: 20px 30px;
-border-radius:10px;
-cursor: pointer;
-display: table;
-margin:auto;
+.reset-score-button {
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: table;
+  margin: auto;
 
-font-family:"Silkscreen", sans-serif;
+  font-family: "Silkscreen", sans-serif;
 }
-.reset-score-button:hover{
+.reset-score-button:hover {
   background-color: red;
   color: gold;
   box-shadow: 5px 8px 20px rgb(29, 45, 194);
-  
-  
-
 }
